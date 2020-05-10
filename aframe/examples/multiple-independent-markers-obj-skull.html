@@ -15,8 +15,8 @@
       <a-assets>
         
         <!-- import obj test export from maya: obj & mtl  -->
-        <a-asset-item id="skull-obj" src="../../data/data/skull-obj/skill-checker.obj"></a-asset-item>
-        <a-asset-item id="skull-mtl" src="../../data/data/skull-obj/skill-checker.mtl"></a-asset-item>
+        <a-asset-item id="skull-obj" src="../../data/data/skull-obj/skull-checker.obj"></a-asset-item>
+        <a-asset-item id="skull-mtl" src="../../data/data/skull-obj/skull-checker.mtl"></a-asset-item>
         
         <!-- import male02: obj & mtl  -->
         <a-asset-item id="male-obj" src="../../data/data/male02/male02.obj"></a-asset-item>
@@ -31,7 +31,7 @@
         
 
 		<!-- modrian marker &  -->
-        <a-marker type='pattern' url='../../three.js/examples/marker-training/examples/pattern-files/pattern-modrian.patt'>
+        <a-marker type='pattern' url='../../data/data/skull-obj/pattern-skull-og-trainer2.patt'>
 			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:pink;'>
                 <a-obj-model src="#skull-obj" mtl="#skull-mtl" scale="0.025 0.025 0.025" animation="property: rotation; to:0 360 0; dur: 5000; easing: linear; loop: true"></a-obj-model>
 <!--
@@ -43,7 +43,7 @@
 		</a-marker>
 
 		<!-- handle house marker -->
-        <a-marker type='pattern' url='../../three.js/examples/marker-training/examples/pattern-files/patternhouseicon.patt'>
+        <a-marker type='pattern' url='../../three.js/examples/marker-training/examples/pattern-files/pattern-modrian.patt'>
             <a-obj-model src="#male-obj" mtl="#male-mtl" scale="0.025 0.025 0.025"></a-obj-model>
 		</a-marker>
 
